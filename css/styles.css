@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
-
-
-
-
 header{
     background-color: #090d1f;
 }
@@ -99,6 +95,7 @@ p{
     font-size: 243.8px;
     font-family: 'Inter';
     color: white;
+    text-align: center;
 }
 
 
@@ -176,7 +173,6 @@ img{
 
 .fa-arrow-up{
     color: #F9F5FF;
-    margin-left: 22rem;
     transition: transform 0.3s ease;
     cursor: pointer;
     transform: rotate(45deg);
@@ -184,6 +180,11 @@ img{
     height: 24px;
 
 }
+
+.flecha1{
+    margin-left: 22rem;
+}
+
 
 .blogs{
     font-family: Inter;
@@ -212,5 +213,66 @@ img{
     opacity: 0px;
     
 
+}
+
+.testo{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    
+}
+
+.navend{
+    color: #EFEFEF;
+    justify-content: left;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.pag{
+    width: 40px;
+    height: 40px;
+    gap: 0px;
+    border-radius: 8px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #F9F5FF !important;
+    color: #112211 !important;
+
+}
+
+.numbers{
+    color: #EFEFEF !important;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    gap: 0px;
+    border-radius: 8px 0px 0px 0px;
+    opacity: 0px;
+    margin: 1rem;
+
+}
+
+.text-white{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
 }
 
