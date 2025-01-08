@@ -334,8 +334,16 @@ img{
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: #C0C5D0;
+}
 
-
+.text3blog{
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #C0C5D0;
 }
 
 .imgblog02{
@@ -343,3 +351,103 @@ img{
     height: 498;
     object-fit:cover;
 }
+
+.badgeblog {
+    background-color: #F9F5FF !important; /* Sobrescribe el estilo de Bootstrap */
+    color: #6941C6 !important; /* Asegúrate de que el color también se aplique */
+    width: Hug (67px)px;
+    height: Hug (24px)px;
+    padding: 2px 10px 2px 10px;
+    gap: 0px !important;
+    border-radius: 16px 0px 0px 0px;
+    opacity: 0px;
+    
+
+}
+
+.badgeblog2 {
+    background-color: #F9F5FF !important; /* Sobrescribe el estilo de Bootstrap */
+    color: #C11574;
+    width: Hug (67px)px;
+    height: Hug (24px)px;
+    padding: 2px 10px 2px 10px;
+    gap: 0px !important;
+    border-radius: 16px 0px 0px 0px;
+    opacity: 0px;
+    
+
+}
+
+.newlatters{
+    font-style: Text md/Semibold;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color:#7F56D9;
+}
+
+.titleblog2{
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+}
+
+.textblogemail{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #C0C5D0
+}
+
+.email {
+    align-items: center;
+    display: flex;
+    justify-content: center; /* Centra todo horizontalmente */
+    gap: 8px; /* Espacio entre el input y el botón */
+}
+
+.email input {
+    width: 250px; /* Ancho del input */
+    height: 40px; /* Altura del input */
+    font-size: 16px; /* Tamaño del texto */
+    padding: 0 10px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    border: 1px solid #ccc; /* Color del borde */
+}
+
+.email button {
+    width: 120px; /* Ancho del botón */
+    height: 40px; /* Altura del botón (igual al input) */
+    font-size: 16px; /* Tamaño del texto */
+    border-radius: 8px; /* Bordes redondeados */
+    background-color: #6a5acd; /* Color del botón (morado) */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    cursor: pointer; /* Cambia el cursor al pasar por el botón */
+    text-align: center;
+}
+
+.privacity{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #C0C5D0;
+}
+
