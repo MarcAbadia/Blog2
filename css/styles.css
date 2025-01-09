@@ -85,7 +85,7 @@ html, body{
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-    padding: 20px;
+    padding-top: 20px;
 }
 
 
@@ -449,5 +449,22 @@ img{
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: #C0C5D0;
+}
+
+.imgnot{
+    width: 592px;
+    height: 330px;
+    gap: 0px;
+    opacity: 0px;
+    object-fit: cover;
+}
+
+.imgnot2{
+    width: 1016px;
+    height: 556px;
+    gap: 0px;
+    opacity: 0px;
+    object-fit: cover;
+
 }
 
